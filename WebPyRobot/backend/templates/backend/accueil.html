@@ -80,13 +80,14 @@
         #div_vs img{
           text-align: center;
         }
-        #code_actif span{
+/*
+      #code_actif span{
           display: block;
           color: blue;
           font-size: 1em;;
           font-weight: bold;
           text-align: center;
-        }
+        }*/
         #code_actif span i{
           vertical-align: text-bottom;
           color: black;
@@ -191,9 +192,11 @@
         #versus-select{
           margin-bottom: 20px;
         }
+/*
         #versus-select.s12 span{
           font-size: 1em;
         }
+*/
         #versus-select.s12 #label_ia img{
           width: 160px;
           height: 112px;
@@ -389,18 +392,17 @@
                         {% for script in scripts %}
 
 
-                            <div class="col s12 m12 l12">
+                            <div class="col s12 m12 l12 center">
+
 
 
                           {% if script.pk == active_script.pk %}
 
-                              <span>
+                              <span class="">
                                 <i class="material-icons">description</i>
-                                <!-- <img src="/static/img/file-icon.png" alt=""
-                                   class="align-center responsive-img materialboxed" width="100"> -->
                                 {{ script.name|truncatechars:22 }}
                               </span>
-                                  <!-- <a class="btn blue-grey darken-4" onclick="window.location.href='/editor/?script={{ script.pk }}'">Modifier</a> -->
+
 
                           {% endif %}
                         </div>

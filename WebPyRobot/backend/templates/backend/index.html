@@ -9,12 +9,36 @@
     <title>Bienvenue sur PyRobot</title>
 
     {% include 'backend/head.html' %}
-<style>
+
+
+    <style>
+        .btn-play {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            padding: 0;
+            background: #cb4e4e;
+            color: #fff;
+            box-shadow: 0 6px #b6b6b6;
+            transition: none;
+            border: none;
+
+            background: none;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            outline: none;
+            position: relative;
+            line-height: 100px;
+        }
+
         #modalInscription span{
             font-style: italic;
             font-size: small;
             margin-top: 0;
         }
+      /*
         #modalInscription .modal-content {
             padding: 5px;
         }
@@ -33,6 +57,7 @@
         #modalInscription .input-field{
             margin: 5px auto;
         }
+      */
         #modalInscription .modal-footer {
             margin-top: 0;
             padding-top: 0;
@@ -111,22 +136,6 @@
             <h4>Inscription</h4>
             <div class="divider"></div><br>
             <div class="row">
-
-                <!--{% for field in form %}
-                  <div class="input-field col s12 m6 l6">
-                    {{ field }}
-                    <label for="{{ field.label }}">{{ field.label }}</label>
-                    {% if field.help_text %}
-                      <span>
-                        {{ field.help_text | safe }}
-                      </span>
-                    {% endif %}
-                    {% for error in field.errors %}
-                      <p style="color: red">{{ error }}</p>
-                    {% endfor %}
-                  </div>
-                {% endfor %}-->
-
                 <div class="input-field col s12 m12 l12">
                     {{ form.username }}
                     <label for="{{ form.username.label }}">{{ form.username.label }}</label>
@@ -226,11 +235,6 @@
                     </h5>
                 </div>
             </div>
-        </div>
-        <div class="parallax">
-            <!--
-            <img src="{% static 'img/armour.png' %}" alt="Unsplashed background img 1">
-            -->
         </div>
     </div>
 </div>
