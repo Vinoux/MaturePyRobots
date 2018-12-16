@@ -7,7 +7,7 @@
 - Django (1.11.5+ recommended 1.11.6)
 - Pillow: https://pillow.readthedocs.io/en/4.3.x/installation.html
 Make sure you got some external libraries like zlib, libjpeg ... installed before you install Python3 if you plan to build your Python3 from source
-
+Nb : For window, python3 use like python 
 
 ## Development
 
@@ -19,7 +19,7 @@ $ docker pull postgres
 $ docker run -d -p 5432:5432 -e POSTGRES_PASSWORD=yourpassword  --name postgres postgres
 ~~~~~
 
-#### Install dependencies and initiate data
+#### Install dependencies and initiate data ubuntu
 Automate:
 ~~~~~
 $./init.sh
@@ -31,6 +31,12 @@ $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 $ python3 manage.py loaddata backend/fixtures/database.json
 ~~~~~
+
+### Install dependencies and initiate data window 
+
+Automate:
+~~~~~
+$./init.cmd
 
 #### Configure database
 - Edit  `WebPyRobot/development.py` file. Add:
@@ -48,8 +54,9 @@ DATABASES = {
 }
 ~~~~~
 
-#### Run
+#### Run 
 
+ubuntu :
 ~~~~
 $ ./run.sh
 ~~~~
@@ -57,6 +64,10 @@ OR
 ~~~~~
 $ python3 manage.py runserver
 ~~~~~
+window :
+~~~~
+$./run.cmd
+~~~~
 The server will be available at http://127.0.0.1:8000/
 
 
