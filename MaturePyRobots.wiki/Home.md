@@ -12,7 +12,7 @@ Le gagnant de la partie est celui dont le tank est encore en vie à la fin de l�
 - L'objectif de MaturePyRobot est d'en faire une application ergonomique et installable sans soucis. En ajoutant des fonctionnalités de qualité de vie (QOL) afin de peaufinner l'application et en faire un produit mature prêt à exploitation.
 
 Auteurs 2018 :
-2017 : MaturePyRobot :
+2018 : MaturePyRobot :
 - [Brice MAUSSANG](mailto:brice.maussang@etu.univ-amu.fr) : BBprog
 - [Dan LE](mailto:dan.le@etu.univ-amu.fr) : Hibouh
 - [Cédric SANCHEZ](mailto:cedric.sanchez@etu.univ-amu.fr) : Biebz
