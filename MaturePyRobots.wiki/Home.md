@@ -68,10 +68,10 @@ WebPyrobot :
 - /WebPyRobot/run.sh - Permet de lancer le serveur web
 
 # TODO
-- Gestion Arbre de compétences ( demande d'y réfléchir un peu plus, est-ce que cela à sa place dans ce projet ?)
-- Galerie d'images items
+- Après présentation de notre projet auprès de jeunes élèves, la partie graphique demande à être améliorée ainsi qu'un possible ajout de sons et bruitages pendant le combat.
+- Faire une galerie d'images.
 
-#Thechnologie/logiciels utilisés:
+# Thechnologie/logiciels utilisés:
 - Python, HTML, CSS, JavaScript, JQuery, SQLite
 - Pip, Django, Pillow, CodeMirror, Materialize, ExCanvas
 - Trello, Balsamiq Mockup, StarUML
