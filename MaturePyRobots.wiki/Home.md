@@ -32,6 +32,11 @@ Ancien projet WebPyRobot :
 - [Sylvain DE BARROS](mailto:sylvain.debarros@etu.univ-amu.fr)
 
 Encadrants:
+2018 MaturePyRobot :
+- Pablo ARRIGHI
+- Kevin PERROT
+- Laurent TICHIT
+
 2017 MaturePyRobot :
 - Pablo ARRIGHI
 - Kevin PERROT
