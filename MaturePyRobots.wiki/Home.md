@@ -13,10 +13,10 @@ Le gagnant de la partie est celui dont le tank est encore en vie à la fin de l�
 
 Auteurs 2018 :
 2017 : MaturePyRobot :
-- [Brice MAUSSANG](mailto:brice.maussang@etu.univ-amu.fr)
-- [Dan LE](mailto:dan.le@etu.univ-amu.fr)
-- [Cédric SANCHEZ](mailto:cedric.sanchez@etu.univ-amu.fr)
-- [Vinciane LE MAGUET](mailto:vinciane.le-maguet@etu.univ-amu.fr)
+- [Brice MAUSSANG](mailto:brice.maussang@etu.univ-amu.fr) : BBprog
+- [Dan LE](mailto:dan.le@etu.univ-amu.fr) : Hibouh
+- [Cédric SANCHEZ](mailto:cedric.sanchez@etu.univ-amu.fr) : Biebz
+- [Vinciane LE MAGUET](mailto:vinciane.le-maguet@etu.univ-amu.fr) : Vinoux et vinouteug
 
 Anciens auteurs 2017 :
 2017 : MaturePyRobot :
